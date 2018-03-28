@@ -1,7 +1,10 @@
 {
-  "env": { 
+  "env": {
     "jest": true
   },
-  "globals": { 
+  "globals": {
+    '$': false,
+    'jquery': false
   }
 }
+
